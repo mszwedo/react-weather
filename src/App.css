@@ -4,7 +4,23 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 50px;
+}
+
+.my-app-header {
+  font-size: 23px !important;
+  padding-top: 23px !important;
+  padding-left: 5px !important;
+}
+
+nav.navbar.navbar-default > div.container {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+
+p.navbar-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .App-header {

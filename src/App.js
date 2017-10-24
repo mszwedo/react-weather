@@ -64,9 +64,11 @@ class App extends Component {
             <div>
                 <Navbar>
                     <Navbar.Header>
-                        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+                        <Navbar.Text>
+                            <img src={logo} className="App-logo" alt="logo" />
+                        </Navbar.Text>
                         <Navbar.Brand>
-                            React Simple Weather App
+                            <div className="my-app-header">React Simple Weather App</div>
                         </Navbar.Brand>
                     </Navbar.Header>
                 </Navbar>
